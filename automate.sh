@@ -1,6 +1,6 @@
 
 #Define all paths, constants here
-PROJECT_DIR='$WORKSPACE/AndroidBuildAutomation'
+PROJECT_DIR='$WORKSPACE'
 OUTPUT_DIR='/home/ubuntu/'
 
 # Functions for customizing colors(Optional)
