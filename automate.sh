@@ -46,11 +46,11 @@ print_blue "\n\n\n assembleDebug...\n"
 #print_blue "\n\n\n Launched main activity\n"
 
 #Copy APK to output folder
-cp "$PROJECT_DIR"app/build/outputs/apk/debug/app-debug.apk $OUTPUT_DIR
-if [ $? -eq 0 ]
-then
-echo " apk file copied"
-else
-echo " apk file file not copied please goto  $PROJECT_DIR"app/build/outputs/apk/debug/ and find .apk file "
-fi
+#cp "$PROJECT_DIR"app/build/outputs/apk/debug/app-debug.apk $OUTPUT_DIR
+#if [ $? -eq 0 ]
+#then
+#echo " apk file copied"
+#else
+#echo " apk file file not copied please goto  $PROJECT_DIR"app/build/outputs/apk/debug/ and find .apk file "
+#fi
 
