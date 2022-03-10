@@ -1,7 +1,7 @@
 
 #Define all paths, constants here
 PROJECT_DIR='$WORKSPACE'
-OUTPUT_DIR='/home/ubuntu/'
+OUTPUT_DIR='$WORKSPACE'
 
 # Functions for customizing colors(Optional)
 print_red(){
@@ -35,15 +35,15 @@ print_blue "\n\n\n assembleDebug...\n"
 ./gradlew assembleDebug
 
 #Install APK on device / emulator
-print_blue "installDebug...\n"
-./gradlew installDebug
+#print_blue "installDebug...\n"
+#./gradlew installDebug
 
-print_blue "\n\n\n Done Installing\n"
+#print_blue "\n\n\n Done Installing\n"
 
 #Launch Main Activity
-adb shell am start -n "com.sample.androidbuildautomationsample/com.sample.androidbuildautomationsample.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+#adb shell am start -n "com.sample.androidbuildautomationsample/com.sample.androidbuildautomationsample.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
 
-print_blue "\n\n\n Launched main activity\n"
+#print_blue "\n\n\n Launched main activity\n"
 
 #Copy APK to output folder
 cp "$PROJECT_DIR"app/build/outputs/apk/debug/app-debug.apk $OUTPUT_DIR
