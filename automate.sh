@@ -1,7 +1,7 @@
 
 #Define all paths, constants here
-PROJECT_DIR='env.WORKSPACE/'
-OUTPUT_DIR='env.WORKSPACE/'
+PROJECT_DIR='${WORKSPACE}/'
+OUTPUT_DIR='${WORKSPACE}/'
 
 # Functions for customizing colors(Optional)
 print_red(){
