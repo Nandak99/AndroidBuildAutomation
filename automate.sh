@@ -1,7 +1,7 @@
 
 #Define all paths, constants here
-PROJECT_DIR='/home/ubuntu/gradle/AndroidBuildAutomation/'
-OUTPUT_DIR='/home/ubuntu/'
+PROJECT_DIR='$WORKSPACE'
+OUTPUT_DIR='$WORKSPACE'
 
 # Functions for customizing colors(Optional)
 print_red(){
